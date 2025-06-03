@@ -1,0 +1,22 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+/* Estilos para h1 podem ser movidos para os componentes específicos 
+   ou mantidos aqui se houver um título global no App.jsx. 
+   Como o título foi removido do App.jsx na configuração das rotas, 
+   este estilo de h1 pode não ser mais necessário aqui. */
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
